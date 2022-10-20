@@ -115,7 +115,7 @@ let TotalAmount = () => {
       .reduce((x, y) => x + y, 0);
     // console.log(amount);
     label.innerHTML = `
-    <h2 class="h21" >Total Bill : ₱ ${amount}</h2>
+    <h2 class="h21">Total Bill : ₱ ${amount}</h2>
     <button class="checkout">Checkout</button>
     <button onclick="clearCart()" class="removeAll">Clear Cart</button>
     `;
