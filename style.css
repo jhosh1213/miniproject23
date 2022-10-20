@@ -86,7 +86,9 @@ body{
     padding: 3px;
     border-radius: 3px;
 }
-
+.h21{
+    color: black;
+}
 .menu-bar{
     margin-right: 80px;
     display: flex;
